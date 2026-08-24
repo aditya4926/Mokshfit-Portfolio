@@ -12,6 +12,7 @@ import Edge from "./components/Edge";
 import Diagnostics from "./components/Diagnostics";
 import Onboarding from "./components/Onboarding";
 import CaseStudies from "./components/CaseStudies";
+import MajorClient from "./components/MajorClient";
 import Proof from "./components/Proof";
 import CTA from "./components/CTA";
 import Contact from "./components/Contact";
@@ -35,6 +36,7 @@ export default function App() {
         <Diagnostics />
         <Onboarding />
         <CaseStudies />
+        <MajorClient/>
         <Proof />
         <CTA />
         <Contact />
