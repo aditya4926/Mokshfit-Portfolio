@@ -1,22 +1,19 @@
 @import "tailwindcss";
 
 @theme {
-  /* ---- Pastel Blue / Lavender Theme ---- */
-  --color-ink: #E2C2F1;
-  --color-charcoal: #FFD9EE;
-  --color-charcoal-2: #BC85A4;
-  --color-line: #86B3F7;
-  --color-line-soft: #AFCFFF;
-
-  --color-bone: #FFFFFF;
-  --color-bone-dim: #4A4A6A;
-  --color-bone-faint: #777795;
-
-  --color-sage: #2173F3;
-  --color-sage-bright: #5B9BFF;
-  --color-sage-dim: #6B5FA7;
-
-  --color-stone: #D8C9E8;
+  /* ---- Pastel blue / lavender / pink color tokens ---- */
+  --color-ink: #DDBEF1;          /* Lavender */
+  --color-charcoal: #F5D9EE;     /* Soft pink */
+  --color-charcoal-2: #BC85A4;   /* Muted mauve */
+  --color-line: #80ADE8;         /* Soft blue */
+  --color-line-soft: #C9B8E8;    /* Lavender-blue */
+  --color-bone: #2875E8;         /* Strong blue */
+  --color-bone-dim: #4F67A3;     /* Muted blue */
+  --color-bone-faint: #6D78A0;   /* Soft blue-grey */
+  --color-sage: #2875E8;         /* Primary blue */
+  --color-sage-bright: #80ADE8;  /* Bright/soft blue */
+  --color-sage-dim: #76516A;     /* Deep mauve */
+  --color-stone: #F5D4EE;         /* Pink */
 
   --font-display: "Space Grotesk", "Inter", sans-serif;
   --font-body: "Inter", sans-serif;
@@ -45,7 +42,7 @@ body {
 
 ::selection {
   background: var(--color-sage);
-  color: var(--color-ink);
+  color: #ffffff;
 }
 
 ::-webkit-scrollbar {
@@ -105,6 +102,6 @@ select:focus-visible {
 }
 
 .bg-noise {
-  background-image: radial-gradient(rgba(237, 234, 224, 0.035) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(40, 117, 232, 0.055) 1px, transparent 1px);
   background-size: 3px 3px;
 }
