@@ -20,7 +20,7 @@ return ( <Reveal delay={0.08}> <a
         </div>
 
         <h3 className="font-display font-semibold text-[clamp(2.5rem,6vw,5rem)] leading-none tracking-tight text-bone">
-          Tilak Studio
+          Graceland media studio
         </h3>
 
         <p className="mt-5 max-w-xl text-bone-dim leading-relaxed">
