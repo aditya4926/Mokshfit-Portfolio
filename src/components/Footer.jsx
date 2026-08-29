@@ -37,9 +37,9 @@ export default function Footer() {
           <div>
             <p className="eyebrow mb-5">Connect</p>
             <ul className="flex flex-col gap-3 text-bone-dim">
-              <li>[Add Instagram handle]</li>
-              <li>[Add LinkedIn URL]</li>
-              <li>[Add contact email]</li>
+              <li>themokshfit@gmail.com</li>
+              <li>8104152021</li>
+              <li> bhandup,mumbai</li>
             </ul>
           </div>
         </div>
