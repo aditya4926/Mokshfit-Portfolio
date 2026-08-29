@@ -83,15 +83,15 @@ export default function Contact() {
           <Reveal delay={0.25} className="mt-12 flex flex-col gap-5">
             <div className="flex items-center gap-4 text-bone-dim">
               <Mail size={18} className="text-sage shrink-0" />
-              <span>{contact.email}</span>
+              <span>themokshfit@gmail.com</span>
             </div>
             <div className="flex items-center gap-4 text-bone-dim">
               <Phone size={18} className="text-sage shrink-0" />
-              <span>{contact.phone}</span>
+              <span>8104152021</span>
             </div>
             <div className="flex items-center gap-4 text-bone-dim">
               <MapPin size={18} className="text-sage shrink-0" />
-              <span>{contact.address}</span>
+              <span>Bhandup,Mumbai</span>
             </div>
           </Reveal>
         </div>
